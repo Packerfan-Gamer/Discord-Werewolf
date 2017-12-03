@@ -46,6 +46,7 @@
 		"The villagers discover the dead body of a beloved pet penguin, but lucklily no one was harmed.",
 		"The villagers discover the dead body of a beloved pet dog, but lucklily no one was harmed.",
 		"The villagers discover the dead body of a beloved pet cat, but lucklily no one was harmed.",
+		"The villagers discover scratches on the doors...",
 		"Paw prints and tufts of fur are found circling the village, but everyone seems unharmed.",
 		"Some house doors have been opened.",
 	        "A scent much like that of a wolf permeates the air.",
@@ -58,6 +59,7 @@
 		"The villagers perform surgery to obtain the brains of **{0}**, now known to be a **{1}**. They seal it in a glass jar.",
 		"Reluctantly, the villagers lead **{0}** to the gallows, who is later found to be a **{1}**.",
 		"The villagers sacrifice **{0}** to the belunga god, who is satisfied with the **{1}** for now.",
+		"For SCIENCE, the villagers create a meal out of **{0}**. They discover **{1}** doesn't taste very good.",
 		"For SCIENCE, the villagers throw **{0}** into a volcano. They discover that the melting point of a **{1}** is less than that of lava.",
 		"The villagers force **{0}** to play Russian Roulette. The town square is stained with the remains of the **{1}**.",
 		"The villagers, after much debate, finally decide on lynching **{0}**, who turned out to be... a **{1}**.",
@@ -65,7 +67,9 @@
 		"The villagers choose to hang **{0}**; however, the rope stretches and breaks, and the ensuing fall kills the **{1}**."
 	],
 	"hastotem": [
-		"**{0}** is in possession of a mysterious totem..."
+		"**{0}** is in possession of a mysterious totem...",
+		"**{0}** got a mysterious totem...",
+		"**{0}** got a delivery! It is a strange, strange totem."
 	],
 	"hastotem2": [
 		"**{0}** and **{1}** are in possession of a mysterious totem..."
