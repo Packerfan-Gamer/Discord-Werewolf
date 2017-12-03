@@ -3369,7 +3369,7 @@ async def backup_settings_loop():
         await asyncio.sleep(BACKUP_INTERVAL)
 
 ############## POST-DECLARATION STUFF ###############
-COMMANDS_FOR_ROLE = {'see' : ['seer', 'oracle', 'augur'],
+COMMANDS_FOR_ROLE = {'see' : ['seer', 'oracle', 'augur', 'ghost'],
                      'kill' : ['wolf', 'werecrow', 'werekitten', 'hunter'],
                      'give' : ['shaman'],
                      'visit' : ['harlot'],
@@ -3412,6 +3412,7 @@ roles = {'wolf' : ['wolf', 'wolves', "Your job is to kill all of the villagers. 
                                                          "but you may not give the same person a totem two nights in a row. If you do not give the totem to anyone, "
                                                          "it will be given to a random player. You win if you are alive by the end of the game."],
          'fool' : ['neutral', 'fools', "You become the sole winner if you are lynched during the day. You cannot win otherwise."],
+         
          'cursed villager' : ['template', 'cursed villagers', "This template is hidden and is seen as a wolf by the seer. Roles normally seen as wolf, the seer, and the fool cannot be cursed."],
          'gunner' : ['template', 'gunners', "This template gives the player a gun. Type `{0}shoot <player>` in channel during the day to shoot <player>. "
                                             "If you are a villager and shoot a wolf, they will die. Otherwise, there is a chance of killing them, injuring "
@@ -3419,7 +3420,10 @@ roles = {'wolf' : ['wolf', 'wolves', "Your job is to kill all of the villagers. 
          'matchmaker' : ['village', 'matchmakers', "You can select two players to be lovers with `{0}choose <player1> and <player2>`."
                                                    " If one lover dies, the other will as well. You may select yourself as one of the lovers."
                                                    " You may only select lovers during the first night."
-                                                   " If you do not select lovers, they will be randomly selected and you will not be told who they are (unless you are one of them)."]}
+                                                   " If you do not select lovers, they will be randomly selected and you will not be told who they are (unless you are one of them)."]
+        'ghost' : ['neutral', 'ghosts', "Your job is to detect the wolves(WIP); you may have a vision once per night. Type `see <player>` in private message to see which team they are on. "
+                                                   " You can only see if the person's role is wolf, villager, or unknown. "]}
+       
 
 gamemodes = {
     'default' : {
@@ -3460,6 +3464,8 @@ gamemodes = {
             [2, 3, 4, 3, 3, 3,  3, 3, 2, 2, 3, 3, 3, 4, 4, 5, 4],
             'crazed shaman' :
             [0, 0, 0, 0, 0, 1,  1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2],
+            'ghost' :
+            [0, 0, 0, 0, 1, 1,  1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3],
             'cursed villager' :
             [0, 0, 1, 1, 1, 1,  1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3],
             'gunner' :
