@@ -64,15 +64,19 @@
 		"The villagers force **{0}** to play Russian Roulette. The town square is stained with the remains of the **{1}**.",
 		"The villagers, after much debate, finally decide on lynching **{0}**, who turned out to be... a **{1}**.",
 		"After a prolonged struggle, **{0}** is forced to the gallows, and is discovered after death to be a **{1}**.",
-		"The villagers choose to hang **{0}**; however, the rope stretches and breaks, and the ensuing fall kills the **{1}**."
+		"The villagers choose to hang **{0}**; however, the rope stretches and breaks, and the ensuing fall kills the **{1}**.",
+		"The villagers choose to hang **{0}**. Later they smell the dead body of a **{1}**."
 	],
 	"hastotem": [
 		"**{0}** is in possession of a mysterious totem...",
 		"**{0}** got a mysterious totem...",
-		"**{0}** got a delivery! It is a strange, strange totem."
+		"**{0}** got a delivery! It is a strange, strange totem.",
+		"While **{0}** was sleeping, someone gave them a mysterious totem.",
+		"Someone dropped a mysterious totem on **{0}** last night..."
 	],
 	"hastotem2": [
-		"**{0}** and **{1}** are in possession of a mysterious totem..."
+		"**{0}** and **{1}** are in possession of a mysterious totem...",
+		"**{0}** and **{1}** got a delivery! There is a strange totem in the box."
 	],
 	"hastotems": [
 		"**{0}**, and **{1}** are in possession of a mysterious totem..."
